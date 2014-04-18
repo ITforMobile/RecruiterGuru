@@ -1,0 +1,505 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Keith Bailly @ITforMobile</title>
+		<meta name="description" content="">
+		<meta name="author" content="" >
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+		<link href="css/bootstrap.css" rel="stylesheet" media="screen">
+		<link href="css/bootstrap-responsive.css" rel="stylesheet" media="screen">
+		<link href="css/font-awesome.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet" media="screen">
+		
+		<!--[if IE 7]>
+			<link href="css/font-awesome-ie7.min.css" rel="stylesheet">
+		<![endif]-->
+	
+		<!--[if lt IE 9]>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script type="text/javascript" src="js/modernizr.js"></script>
+	
+	</head>
+
+	<body>
+		<div id="wrapper">
+			<div id="sidebar">
+				<a class="btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</a>
+				<!-- <div id="logo"> <a href="/"><img src="img/logo.svg" alt="logo" /></a> </div> -->
+				<nav id="nav" class="navigation" role="navigation">
+					<ul class="unstyled">
+						<li class="active" data-section="1"><i class="icon-home"></i> <span>Home</span></li>
+						<li data-section="2" class=""><i class="icon-user"></i> <span>About</span></li>
+						<li data-section="3" class=""><i class="icon-laptop"></i> <span>Phoenix Staff</span></li>
+						<li data-section="4" class=""><i class="icon-pencil"></i> <span>Social</span></li>
+						<li data-section="5" class="last"><i class="icon-envelope"></i> <span>Contact</span></li>
+					</ul>
+				</nav><!-- /nav -->
+			</div><!-- /sidebar -->
+			
+			<div id="container">
+										
+				<section class="section" id="section1" data-section="1">
+					<div class="container-fluid">	
+						<div class="row-fluid">
+							
+							<div class="alt-image img-circle thumb">
+								<img src="img/thumb.jpg" alt="Your Name" class="img-circle">
+							</div>
+							<div class="span6 intro">
+								<hgroup>
+									<h1>Nice to meet you</h1>
+									<h3>I am a Recruiter, Mentor, Technologist, UI/Mobile Designer and a Father <BR> <BR>I enjoy discovering & developing the best in people</h3>
+								</hgroup>
+								<button class="btn-inverse" data-section="2">
+									<span>Welcome</span>
+									<i class="icon-circle-arrow-down"></i>
+								</button>
+							</div><!-- /span6 -->
+							
+						</div><!-- /row-fluid -->
+					</div><!-- /container-fluid -->	
+				</section><!-- /section -->
+								
+				<section class="section" id="section2" data-section="2">
+					<div class="container-fluid">
+						<div class="row-fluid title">
+							<div class="span3">
+								<h2>About</h2>
+							</div><!-- /span3 -->
+							<div class="span9 hidden-phone">	
+								<hr>
+							</div><!-- /span9 -->
+						</div><!-- /row-fluid -->
+						
+						<div class="row-fluid desc">
+							<div class="span12">
+								<p>I love technology, I always have. My first computer was a TRS-80 with Level 1 BASIC and 4K of RAM. It had a cassette recorder as a storage device with RCA type cables. I remember coding the computer to read, and write to the tape, it was so slow, yet so high tech!  My father is architect (the building kind) and mother a fine artist and a decorator of sorts, she did a great job painting "Jonathon Livingston Seagull" or so I thought when I was 10.</p>
+								<p>I am creative technologist, and try to  use technology to simplify my life. I embrace new technology and search for ways to re-purpose old technology.</p>
+                                <p>Steve Jobs and Walt Disney, two of the greatest men of all times. I often wonder what they would build or dream up together. They focused on the experience, the user's experience. The experience was everything.</p>
+                                <p>As a manager, recruiter and builder of teams and training programs I try to focus on what the user is seeing and thinking and make it enjoyable. As a father, I try to make the time I am able to spend with my family enjoyable and give them a good experience.</p>
+                                  <p>As Regional Director with Phoenix Staff, my goals are to develop an internal team that will not only find you the best talent, but also provide you with an experience so great and successful that you will want to share with your colleagues.</p>
+							</div><!-- /span8 -->
+						</div><!-- /row-fluid -->
+						
+						<div class="row-fluid content hidden-tablet">
+							<div class="span12 expand">
+								<h4>Here is an interesting way to get a "snap shot" of my life.</h4>
+								<div class="row-fluid">
+									<div class="span4">
+									
+									<!-- CHART N 1 -->
+										<script>		
+										jQuery(document).ready(function( $ ) {
+											// Triggering only when it is inside viewport
+											jQuery('.knob-4').waypoint(function(){         		        		        
+												// Triggering now
+										        jQuery('.knob-4').knob();     
+										        // Animating the value
+										        if(jQuery('.knob-4').val() == 0) {	
+											    	jQuery({value: 0}).animate({value: jQuery('.knob-4').attr("rel")}, {
+											        	duration: 5000,
+											        	easing:'swing',
+											        	step: function() 
+												        	{
+													            jQuery('.knob-4').val(Math.ceil(this.value)).trigger('change');
+													        }
+												    	})
+											   	}	        	   	        
+									   	        }
+										        ,{
+										          triggerOnce: true,
+										          offset: function(){
+										            return $(window).height() - $(this).outerHeight(); 
+										          }
+										        }
+									        );    
+										});	        
+										</script>
+
+										<div class="skill">
+											<input data-readonly="true"  data-fgcolor="#8B5E3C" data-inputColor="#333" data-width="245" data-height="122.5" class="knob-4" rel="16" value="0" readonly="readonly" data-angleArc="180" data-angleOffset="-90" data-max="25" >
+											<h4 class="visible-phone">16</h4>
+											<h6>average number of coffee meetings a week</h6>
+										</div>
+									<!-- END CHART N 1 -->
+									</div><!-- /span4 -->
+									
+									
+									<div class="span4">
+									<!-- CHART N 2 -->
+										<script>		
+										jQuery(document).ready(function( $ ) {
+											// Triggering only when it is inside viewport
+											jQuery('.knob-65').waypoint(function(){         		        		        
+												// Triggering now
+										        jQuery('.knob-65').knob();     
+										        // Animating the value
+										        if(jQuery('.knob-65').val() == 0) {	
+											    	jQuery({value: 0}).animate({value: jQuery('.knob-65').attr("rel")}, {
+											        	duration: 5000,
+											        	easing:'swing',
+											        	step: function() 
+												        	{
+													            jQuery('.knob-65').val(Math.ceil(this.value)).trigger('change');
+													        }
+												    	})
+											   	}	        	   	        
+									   	        }
+										        ,{
+										          triggerOnce: true,
+										          offset: function(){
+										            return $(window).height() - $(this).outerHeight(); 
+										          }
+										        }
+									        );    
+										});	        
+										</script>
+
+										<div class="skill">
+											<input data-readonly="true"  data-fgcolor="#006838" data-inputColor="#333" data-width="245" data-height="122.5" class="knob-65" rel="43" value="0" readonly="readonly" data-angleArc="180" data-angleOffset="-90" data-max="47" >
+											<h4 class="visible-phone">43</h4>
+											<h6>number of candidates put to work this year</h6>
+										</div>
+									<!-- END CHART N 2 -->
+									</div><!-- /span4 -->
+									
+									
+									<div class="span4">
+									<!-- CHART N 3 -->
+										<script>		
+										jQuery(document).ready(function( $ ) {
+											// Triggering only when it is inside viewport
+											jQuery('.knob-85').waypoint(function(){         		        		        
+												// Triggering now
+										        jQuery('.knob-85').knob();     
+										        // Animating the value
+										        if(jQuery('.knob-85').val() == 0) {	
+											    	jQuery({value: 0}).animate({value: jQuery('.knob-85').attr("rel")}, {
+											        	duration: 5000,
+											        	easing:'swing',
+											        	step: function() 
+												        	{
+													            jQuery('.knob-85').val(Math.ceil(this.value)).trigger('change');
+													        }
+												    	})
+											   	}	        	   	        
+									   	        }
+										        ,{
+										          triggerOnce: true,
+										          offset: function(){
+										            return $(window).height() - $(this).outerHeight(); 
+										          }
+										        }
+									        );    
+										});	        
+										</script>
+
+										<div class="skill">
+											<input data-readonly="true"  data-fgcolor="#163e96" data-inputColor="#333" data-width="245" data-height="122.5" class="knob-85" rel="85" value="0" readonly="readonly" data-angleArc="180" data-angleOffset="-90" data-max="120" >
+											<h4 class="visible-phone">85</h4>
+											<h6>how many times I heard "But Daddy" this week</h6>
+										</div>
+									<!-- END CHART N 3 -->
+									</div><!-- /span4 -->
+									
+								</div><!-- /row-fluid -->	
+							</div><!-- /span12 -->
+						</div><!-- /row-fluid -->
+					</div><!-- /container -->
+				</section><!-- /section -->	
+				
+				<section class="section" id="section3" data-section="3">
+					<div class="container-fluid">
+						<div class="row-fluid title">
+							<div class="span4">
+								<h2>At Work</h2>
+							</div><!-- /span4 -->
+							<div class="span8 hidden-phone alt">	
+								<hr>
+							</div><!-- /span8 -->
+						</div>
+						<div class="row-fluid desc">
+							<div class="span12">
+								<p>I am the Regional Director for Phoenix Staff, a boutique staffing firm focusing on high caliber IT talent. We have offices in Phoenix, Las Vegas and Austin. Our business is split between fulltime direct hire, contract to hire, and pure contract opportunities. We have the opportunity to help those that need sponsorship on a limited basis. <br> <br> I manage the Las Vegas and Austin locations, operating from the bottom line. I am responsible for managing our current business, scouting new business and creating new products and services, as well as identifying, hiring and mentoring our team. I have found and trained over 80% of our current teams in Sales, Recruting and Sourcing. <BR> <BR> I have built recruiting teams, compensation plans, training and retention programs. My training programs are tailored to specific roles within the organization and are built for iPad. <BR> <BR> I manage recruiting and sourcing teams in mutliple states as well as India, and work with development resources in Mexico. <br> <br> Additionally I research and deploy new company wide technology solutions to keep us effecient and using technology to improve our customer experience and business's bottom line. </p>
+							</div><!-- /span8 -->
+						</div><!-- /row -->
+						
+						<div class="row-fluid content slide">
+							<div class="span4">
+								<img src="img/psi.png" alt="Phoenix Staff's New Web Site 2014">
+								<a href="http://phoenixstaff.com"  rel="external">Check out our new site <i class="icon-double-angle-right"></i></a>
+							</div><!-- /span4 -->
+							<div class="span4">
+								<img src="img/mobile.png" alt="Our New Mobile Recruiter App">
+								<a href="http://phoenixstaff.com/mobilerecruiter.html"  rel="external">Check out our Mobile App Site <i class="icon-double-angle-right"></i></a>
+							</div><!-- /span4 -->
+							<div class="span4">
+								<img src="img/onitunes.png" alt="Our Mobile App, Available on iTunes">
+								<a href="https://itunes.apple.com/us/app/mobile-recruiter/id538676667?mt=8"  rel="external">Check out our Mobile App <i class="icon-double-angle-right"></i></a>
+							</div><!-- /span4 -->
+						</div><!-- /row-fluid -->	
+	
+					</div><!-- /container -->
+				</section><!-- /section -->
+				
+				
+				
+				<section class="section" id="section4" data-section="4">
+					<div class="container-fluid">
+						<div class="row-fluid title">
+							<div class="span4">
+								<h2>Social</h2>
+							</div><!-- /span4 -->
+							<div class="span8 hidden-phone">	
+								<hr>
+							</div><!-- /span8 -->
+						</div><!-- /row-fluid -->
+						<div class="row-fluid desc">
+							<div class="span8">
+								<p>Blogging is an opportunity to share your knowledge, thoughts and insights into the market. As recruiters, and by that I mean: account managers, recruiters, sourcers and adminstrative members, we have first hand knowldge and front line insight onto what is hot, what is happening and sometimes act as coaches to help remind candidates and hiring managers the basics. As a company we enjoy blogging about market trends, best practices and IT in general.</p>
+							</div><!-- /span8 -->
+						</div><!-- /row-fluid -->
+						<div class="row-fluid content">
+							<div class="span4">
+								<ul class="article-tags">
+                                    <li data-blog="skills" class="current"><i class="icon-circle-arrow-right"></i>Skills</li>
+									<li data-blog="blog"><i class="icon-circle-arrow-right"></i>Blog</li>
+									<li data-blog="dribbble"><i class="icon-circle-arrow-right"></i>LinkedIn Profile</li>
+								
+						            
+					            </ul>
+							</div><!-- /span4 -->
+							
+							<div class="span8 slide current" data-blog="skills">
+								<div class="row-fluid">
+									<div class="span6 expand">
+										<h4>Recruiting</h4>
+										<p>As a "true" full desk recruiter, I scout for new business, manage our current clients, negoite contracts and salary, find candidates and close offers. I am experiecned in all areas of the SDLC including sales, sales engineers and marketing. I specialize in IT and with my background in design, marketing and engineering combined with my entrepreneurial spirit I am capable recruiter and can build entire teams.</p>
+										<div class="pull-right read-more">
+											<a href="http://phoenixstaff.com/about.html"  rel="external">Read More <i class="icon-double-angle-right"></i></a>
+										</div>
+									</div><!-- /span6 -->
+									<div class="span6 visible-desktop">
+										<h4>Technology</h4>
+										<p>UI / UX Design  •   XCode   •   HTML   •   CSS   •    BOOTSTRAP   •   EVERNOTE   •   WORDPRESS   •   MEETUP   •   COMPAS   •   PHOTOSHOP   •   ILLUSTRATOR.</p>
+										<div class="pull-right read-more">
+											<a href="http://phoenixstaff.com/featuredjobs.html"  rel="external">Read More <i class="icon-double-angle-right"></i></a>
+										</div>
+									</div><!-- /span6 -->
+									
+								</div><!-- /row-fluid -->
+							</div><!-- /span8 -->
+                            
+                            
+                            <div class="span8 slide" data-blog="blog">
+								<div class="row-fluid">
+									<div class="span6 expand">
+										<h4>Social Media</h4>
+										<p>No trend in the past ten years has been more perplexing — or necessary — to businesses than social media.  In fact,a recent report from socialmediatoday.com indicates that 90% of small business are active on social sites, and nearly all big businesses have a presence.  Why? These sites are a low-cost channel for marketing and communication with your customers.  But, unlike traditional marketing channels, social sites are ever evolving and must be maintained in real-time.  Therefore, maintaining a respectable social presence requires time and money.</p>
+										<div class="pull-right read-more">
+											<a href="http://phoenixstaff.com/itformobile/"  rel="external">Read More <i class="icon-double-angle-right"></i></a>
+										</div>
+									</div><!-- /span6 -->
+									<div class="span6 visible-desktop">
+										<h4>References</h4>
+										<p>As a recruiter, manager and director I understand the importance of a reference in both capacities:  that is, asking for a reference and acting as a reference.  When asking for a reference it should not be a challenge to obtain one.  The right pitch must be delivered as well as the tone and sincerity of your message to obtain references and contact information. </p>
+										<div class="pull-right read-more">
+											<a href="http://phoenixstaff.com/itformobile/"  rel="external">Read More <i class="icon-double-angle-right"></i></a>
+										</div>
+									</div><!-- /span6 -->
+									
+								</div><!-- /row-fluid -->
+							</div><!-- /span8 -->
+                            
+                            
+                            
+							
+							<div class="span8 slide" data-blog="dribbble">
+								<div class="row-fluid">
+									<div class="span6 expand">
+										<h4>Linkedin</h4>
+										<p style="text-align:center"><img src="img/linked.png" alt=""></p>
+										<div class="pull-right read-more">
+											<a href="http://www.linkedin.com/in/keithbailly/
+ "  rel="external">View my profile <i class="icon-double-angle-right"></i></a>
+										</div>
+									
+								
+									</div><!-- /span6 -->
+								</div><!-- /row-fluid -->
+							</div><!-- /span8 -->
+																			
+						</div><!-- /row-fluid -->
+					</div><!-- /container -->
+				</section><!-- /section -->
+				
+				
+				<section class="section" id="section5" data-section="5">
+					<div class="container-fluid">
+						<div class="row-fluid title">
+							<div class="span4">
+								<h2>Contact</h2>
+							</div><!-- /span4 -->
+							<div class="span8 hidden-phone alt">	
+								<hr>
+							</div><!-- /span8 -->
+						</div><!-- /row-fluid -->
+						<div class="row-fluid content">
+							<div class="span4">
+								<h4 class="intro">Let's Network</h4>
+								<p>If you are looking to hire a team of developers or just need a contractor for a month, I can help.  I am also open to discuss mobile projects, and would enjoy reviewing your technology.</p>
+								<div class="row-fluid alt">
+									<h5>Email:</h5>
+									<span><a href="mailto:keith@phoenixstaff.com" rel="external">keith@phoenixstaff.com</a></span>
+								</div><!-- /row -->
+								<div class="row-fluid alt">
+									<h5>Phone:</h5>
+									<span>(512) 900-8895</span>
+								</div><!-- /row -->
+								<div class="row-fluid alt">
+									<h5>Twitter:</h5>
+									<span><a href="https://twitter.com/ITforMobile" rel="external">@ITforMobile</a></span>
+								</div><!-- /row -->
+							</div><!-- /span4 -->
+							
+							<div class="span8">
+							
+								<div class="row-fluid">
+									<div class="span12">
+									</div><!-- /span12 -->
+								</div><!-- /row-fluid -->
+
+                                <!-- form -->
+                                <form role="form" id="form" class="contactForm" method="post" action="php/send.php">
+
+
+                                    <!-- col-md-6 -->
+                                    <div class="col-md-6">
+
+                                        <!-- Contact Name -->
+                                        <div class="form-group" data-uk-scrollspy="{cls:'uk-animation-slide-left', delay:500}">
+
+                                            <div class="controls">
+                                                <input type="text" class="form-control requiredField" placeholder="Your name" name="name">
+                                            </div>
+
+                                        </div><!-- /Contact Name -->
+
+
+
+                                        <!-- Contact Mail -->
+                                        <div class="form-group" data-uk-scrollspy="{cls:'uk-animation-slide-left', delay:500}">
+
+                                            <div class="controls">
+                                                <input type="email" class="form-control email requiredField" placeholder="Your email" name="email">
+                                            </div>
+
+                                        </div><!-- /Contact Mail -->
+
+
+                                        <!-- Contact Subject -->
+                                        <div class="form-group" data-uk-scrollspy="{cls:'uk-animation-slide-left', delay:500}">
+
+                                            <div class="controls">
+                                                <input type="text" class="form-control requiredField" placeholder="Subject" name="subject">
+                                            </div>
+
+                                        </div><!-- /Contact Subject -->
+
+                                    </div><!-- /col-md-6 -->
+
+
+                                    <!-- col-md-6 -->
+                                    <div class="col-md-6">
+
+                                        <!-- Contact Message -->
+                                        <div class="form-group" data-uk-scrollspy="{cls:'uk-animation-slide-right', delay:500}">
+
+                                            <div class="controls">
+                                                <textarea rows="10" class="form-control requiredField" placeholder="Your message" name="message"></textarea>
+                                            </div>
+
+                                        </div><!-- /Contact Message -->
+
+                                        <!-- Submit Button -->
+                                        <div  data-uk-scrollspy="{cls:'uk-animation-slide-right', delay:500}">
+                                            <button type="submit" class="btn btn-lg btn-nesto submit">Submit</button>
+                                        </div>
+
+                                    </div><!-- /col-md-6 -->
+
+
+                                </form><!-- /form -->
+
+
+                            </div><!-- /row -->
+                        </div><!-- /container -->
+                </section><!-- /contact-section -->
+
+
+
+
+                <!-- =========================================
+                Map Section
+                ========================================== -->
+                <!-- map-section -->
+                <section id="map-section">
+
+                    <!-- map -->
+                    <div id="map"></div>
+
+                    <!-- subscribe -->
+                    <div id="subscribe" data-uk-scrollspy="{cls:'uk-animation-slide-bottom', delay:500}">
+
+                        <!-- form -->
+                        <form id="sform" method="post" action="php/news-letter.php">
+
+                            <!-- Contact Mail -->
+                            <div class="form-group">
+
+                                <div class="controls">
+                                    <input type="email" class="form-control email srequiredField" placeholder="Your email" name="semail">
+                                </div>
+
+                            </div><!-- /Contact Mail -->
+
+                            <!-- Subscribe Button -->
+                            <button type="submit" class="btn btn-lg btn-nesto submit">More Info</button>
+
+                        </form><!-- /form -->
+
+                    </div><!-- /subscribe -->
+
+                </section><!-- /map-section -->
+
+            </div><!-- /span8 -->
+						
+						<div id="footer">
+							<div class="row-fluid">
+								<div class="span12">
+									
+								</div><!-- /span12 -->
+							</div><!-- /row-fluid -->	
+						</div><!-- /footer -->
+					</div><!-- /row-fluid -->	
+				</div><!-- /container-fluid -->
+				
+			</div><!-- /container -->	
+		</div><!-- /wrapper -->		
+	
+		<!-- JAVASCRIPTS -->
+		<script type="text/javascript" src="js/waypoints.min.js"></script>
+		<script type="text/javascript" src="js/jquery.knob.js"></script>
+		<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
